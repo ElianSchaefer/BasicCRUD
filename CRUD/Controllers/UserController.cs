@@ -9,6 +9,7 @@ using System.Linq;
 
 namespace CRUD.Controllers
 {
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly UserDbContext _dbContext;
